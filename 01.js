@@ -12,9 +12,10 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  return array.filter(elemento => typeof elemento === 'number')
+
 }
 
 // No modifiques nada debajo de esta linea //
-
 
 module.exports = soloNumeros
